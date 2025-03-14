@@ -58,7 +58,7 @@ local_costmap:
     map_type: costmap
 
     observation_sources: scan
-    scan: {data_type: LaserScan, marking: true, topic: scan, clearing: true, sensor_frame: hokuyo_link}
+    scan: data_type: LaserScan, marking: true, topic: scan, clearing: true, sensor_frame: hokuyo_link}
 
   inflation_layer:
     inflation_radius: 0.3
